@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Ropa</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="stylesheet" href="sweetalert2.min.css">
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+  <!--BARRA DE NAVEGACION-->   
+    <header class="header">
+        <div class="logo">
+            <a href="./index.html"><img src="./img/Sampler logotipo.png" alt="Logo de la Marca"></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">PRODUCTOS</a></li>
+                <li><a href="#">OFERTAS</a></li>
+                <li><a href="#">SOBRE NOSOTROS</a></li>
+                <li><a href="#">PREGUNTAS</a></li>   
+            </ul>
+        </nav>
+        <button class="btn">Contacto</button>
+    </header>
+
+  <!--TARJETAS--> 
+  <div id="contenedor-productos" class="contenedor"></div>
+
+  <!--CARRITO--> 
+  <h2>Tus Compras</h2>
+  <div id="carrito-container"></div>
+
+  <button class="btn" id="finalizar-compra-btn">Finalizar Compra</button>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="sweetalert2.all.min.js"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
+
